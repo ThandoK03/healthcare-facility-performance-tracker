@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+# Raw WHO files are linked, not stored (see data/raw/SOURCE.md)
+data/raw/*
+!data/raw/SOURCE.md
