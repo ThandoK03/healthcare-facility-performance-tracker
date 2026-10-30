@@ -1,6 +1,6 @@
 # Healthcare Facility Performance Tracker
 
-<!-- One-line summary in your own words -->
+Breast cancer 5-year net survival by country (WHO GHO, 2017-2021), cleaned, analyzed and visualized in Google sheets  
 
 ## Business Challenge
 <!-- Rewrite in your own words: who is the client, what problem do they have? -->
@@ -11,10 +11,12 @@ A regional health ministry overseeing outpatient care across public health facil
 - GitHub (version control and portfolio)
 
 ## Dataset
-- **Source:** WHO Global Health Observatory — Health Service Coverage Data
+- **Source:** WHO Global Health Observatory, Cancer Survival theme
+- **Indicator:** Cancer survival for those diagnosed with breast cancer, 5-year net survival (%), 2017-2021
 - **Link:** https://www.who.int/data/gho
 - **Raw data:** linked, not stored — see [data/raw/SOURCE.md](data/raw/SOURCE.md)
-- **Important substitution:** GHO data is country/regional level, so regions/reporting units are treated as "facilities" in this project.
+- **Important substitution:** the data is country level, so countries are treated as "facilities" in this project.
+- **Format note:** each value includes a confidence interval (e.g. `42.3 [23.6-63.9]`) and was split into estimate, lower and upper bound.
 
 ## Approach
 1. **Data cleaning:** <!-- what you audited, what you fixed; refer to the Cleaning Log tab -->
